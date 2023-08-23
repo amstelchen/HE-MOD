@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "he-mod"
+version = "0.1.0"
+description = "Create and edit mods for Hacker Evolution"
+authors = ["Michael John <michael.john@gmx.at>"]
+readme = "README.md"
+license = "GPL"
+packages = [{include = "he_mod"}]
+include = ["CHANGELOG.md", "README.md", "HE_MOD.ui", "he_mod.ico"]
+
+[tool.poetry.scripts]
+he-mod = 'he_mod.__main__:main'
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+# pyside6 = "^6.4.2"
+pyside6 = ">=6.2"
+# pyside6-essentials = "^6.4.2"
+
+[tool.poetry.dev-dependencies]
+pyside6 = "^6.4.2"
+
+[tool.poetry.group.dev.dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.urls]
+homepage = "https://github.com/amstelchen/HE-MOD"
+repository = "https://github.com/amstelchen/HE-MOD"
+documentation = "https://github.com/amstelchen/HE-MOD"

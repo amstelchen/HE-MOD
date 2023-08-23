@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Hacker Evolution Mod Editor
+GenericName=Hacker Evolution Mod Editor
+Type=Application
+Comment=Create and edit mods for Hacker Evolution.
+Icon=he_mod
+Exec=/usr/bin/python -m he_mod
+Terminal=false
+StartupNotify=false
+StartupWMClass=he_mod
+Categories=Games;
